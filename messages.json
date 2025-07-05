@@ -1,22 +1,18 @@
 {
   "INICIO Y FIN DE TURNO": [
-    "INICIO DE SERVICIO\n!XXXX, inicio de turno.",
-    "SALIDA DE SERVICIO:\n!XXXX, finalización de turno."
+    "INICIO DE SERVICIO\n!XXXX, inicio de turno desde la estación.",
+    "SALIDA DE SERVICIO:\n!XXXX, finalización de turno en la estación."
   ],
-  "RADIO": [
+  "RADIO RUTINARIA": [
     "CÓDIGO SEIS:\n!XXXX, márcame en código seis sobre [TUS LABORES].",
-    "CÓDIGO SIETE:\n!XXXX, márcame en código siete, parada para comer y descanso.",
-    "TRASLADO SOSPECHOSO:\n!XXXX, 10-15 con sospechoso hacia la estación [11 SANDY/26 PALETO].",
-    "EMBARGO VEHÍCULO:\n!XXXX, necesitamos una 926 en [UBICACIÓN] para incautar un vehículo de un sospechoso."
+    "PAUSA:\n!XXXX, márcame en pausa rutinaria, parada para comer y descanso.",
+    "TRASLADO SOSPECHOSO:\n!XXXX, sospechoso bajo custodia, con uno hacia la estación [32 MRS - 5 LM - 29 VS]."
   ],
   "TÁCTICOS": [
     "RESPONDER TACTICO:\n!XXXX, márcame en ruta, código tres hacia TAC 1.",
     "CÓDIGO CUATRO ADAM:\n!XXXX, gestióname el código cuatro adam sobre la situación de TAC 1.",
-    "PEDIR GRABACIONES DISPAROS:\n!XXXX, despacho, gestiona todas las grabaciones de los oficiales involucrados en disparos de la situacion de TAC 1."
-  ],
-  "PARCHE": [
-    "PEDIR PARCHE:\n!XXXX, 10-34 para un informe de crimen, dame el parche.",
-    "UBICACIÓN SOSPECHOSA:\n!XXXX, se busca (vehículo -persona) (color++vestimenta) tras [SITUACIÓN], última vez visto en [UBICACIÓN], suelto el parche."
+    "PEDIR GRABACIONES DISPAROS:\n!XXXX, despacho, gestiona todas las grabaciones de los oficiales involucrados en disparos de la situacion de TAC 1.",
+    "CLAVE DAVID:\n!XXXX, despacho, gestioname miembros de la METRO en TAC 1, CLAVE DAVID ACTIVA."
   ],
   "MÉDICA": [
     "1º DISPATCH LSES:\n#LSPD BCC, LSES, oficiales requieren unidad medica urgentemente por persona herida, se gestiona ubicación via interno.", 
