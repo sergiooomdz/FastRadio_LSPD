@@ -1,31 +1,29 @@
 {
   "INICIO Y FIN DE TURNO": [
-    "INICIO DE SERVICIO\n!XXXX, SCC, 10-8.",
-    "SALIDA DE SERVICIO:\n!XXXX, SCC, 10-7."
-  ],
-  "MÉDICA": [
-    "1º SOLICITUD MÉDICA:\n!XXXX, SCC, gestióname una 902R en [UBICACIÓN] por [MOTIVOS].",
-    "2º DISPATCH LSES:\n#Sheriff's Communications Center, LSES, deputies requieren unidad medica urgentemente por persona herida, se gestiona ubicación via interno.", 
-    "3º CANCELAR DISPATCH LSES:\n#Sheriff's Communications Center, LSES, desestimen la ultima solicitud, unidades medicas locales acudieron al lugar."
+    "INICIO DE SERVICIO\n!XXXX, inicio de turno.",
+    "SALIDA DE SERVICIO:\n!XXXX, finalización de turno."
   ],
   "RADIO": [
-    "CÓDIGO SEIS:\n!XXXX, SCC, márcame en código seis sobre [TUS LABORES].",
-    "CÓDIGO SIETE:\n!XXXX, SCC, márcame en código siete, parada para comer y descanso.",
-    "TRASLADO SOSPECHOSO:\n!XXXX, SCC, 10-15 con sospechoso hacia la estación [11 SANDY/26 PALETO].",
-    "EMBARGO VEHÍCULO:\n!XXXX, SCC, necesitamos una 926 en [UBICACIÓN] para incautar un vehículo de un sospechoso."
+    "CÓDIGO SEIS:\n!XXXX, márcame en código seis sobre [TUS LABORES].",
+    "CÓDIGO SIETE:\n!XXXX, márcame en código siete, parada para comer y descanso.",
+    "TRASLADO SOSPECHOSO:\n!XXXX, 10-15 con sospechoso hacia la estación [11 SANDY/26 PALETO].",
+    "EMBARGO VEHÍCULO:\n!XXXX, necesitamos una 926 en [UBICACIÓN] para incautar un vehículo de un sospechoso."
   ],
   "TÁCTICOS": [
-    "TÁCTICOS:\n!XXXX, SCC, márcame en ruta, código tres hacia A-TAC 1.",
-    "CÓDIGO CUATRO:\n!XXXX, SCC, gestióname el código cuatro sobre la situación de A-TAC 1.",
-    "COORDINACIÓN TÁCTICA:\n!XXXX, SCC, enlázame todas las unidades de A-TAC 1 hacia el canal L-TAC 11."
+    "RESPONDER TACTICO:\n!XXXX, márcame en ruta, código tres hacia TAC 1.",
+    "CÓDIGO CUATRO ADAM:\n!XXXX, gestióname el código cuatro adam sobre la situación de TAC 1.",
+    "PEDIR GRABACIONES DISPAROS:\n!XXXX, despacho, gestiona todas las grabaciones de los oficiales involucrados en disparos de la situacion de TAC 1."
   ],
   "PARCHE": [
-    "PEDIR PARCHE:\n!XXXX, SCC, 10-34 para un informe de crimen, dame el parche.",
-    "UBICACIÓN SOSPECHOSA:\n!XXXX, SCC, se busca (vehículo -persona) (color++vestimenta) tras [SITUACIÓN], última vez visto en [UBICACIÓN], suelto el parche."
+    "PEDIR PARCHE:\n!XXXX, 10-34 para un informe de crimen, dame el parche.",
+    "UBICACIÓN SOSPECHOSA:\n!XXXX, se busca (vehículo -persona) (color++vestimenta) tras [SITUACIÓN], última vez visto en [UBICACIÓN], suelto el parche."
+  ],
+  "MÉDICA": [
+    "1º DISPATCH LSES:\n#LSPD BCC, LSES, oficiales requieren unidad medica urgentemente por persona herida, se gestiona ubicación via interno.", 
+    "2º CANCELAR DISPATCH LSES:\n#LSPD BCC, LSES, desestimen la ultima solicitud, unidades medicas locales acudieron al lugar."
   ],
   "FEDERALES": [
-    "1º GESTIÓN SCC:\n!XXXX, SCC, gestióname a los agentes federales para imputación de cargos en mi ubicación.",
-    "2º SOLICITAR:\n#Sheriff's Communications Center, FIB, deputies requieren de agentes federales para asignación de delitos federales, estación [Nº ESTACIÓN], confirmar asistencia.",
-    "3º CANCELAR:\n#Sheriff's Communications Center, FIB, desestimen la ultima solicitud de agentes federales, se procede de manera interna. "
+    "1º SOLICITAR:\n#LSPD BCC, FIB, oficiales requieren de agentes federales para asignación de delitos federales, estación [Nº ESTACIÓN], confirmar asistencia.",
+    "2º CANCELAR:\n#LSPD BCC, FIB, desestimen la ultima solicitud de agentes federales, se procede de manera interna. "
   ]
 }
