@@ -199,8 +199,8 @@
                 </div>
                 <div class="section-content info-container">
                     <div class="info-card">
-                        <h2>¿Qué es FAST-RADIO LSSD?:</h2>
-                        <p>FAST-RADIO es una herramienta diseñada para agilizar las comunicaciones escritas de LEO dentro de GTAHUB.GG, en este caso concreto de LSSD.</p>
+                        <h2>¿Qué es Fast Radio LSSD?:</h2>
+                        <p>Fast Radio es una herramienta diseñada para agilizar las comunicaciones escritas de LEO dentro de GTAHUB.GG, en este caso concreto de LSPD.</p>
 
                         <h3>🎯 Objetivo:</h3>
                         <p>Permitir a los jugadores enviar mensajes rápidos y estandarizados mediante el uso de plantillas predefinidas, acelerando la comunicación durante situaciones críticas o rutinarias.</p>
@@ -313,6 +313,30 @@
               restrictedNotification: document.getElementById('restricted-notification')
             };
         
+              const backgrounds = [
+                'imagenes/LSPD1.png',
+                'imagenes/LSPD2.png',
+                'imagenes/LSPD3.png',
+                'imagenes/LSPD4.png',
+                'imagenes/LSPD5.png',
+                'imagenes/LSPD6.png',
+                'imagenes/LSPD7.png',
+                'imagenes/LSPD8.png',
+                'imagenes/LSPD9.png',
+                'imagenes/LSPD10.png'
+              ];
+
+              let currentIndex = 0;
+
+              function cambiarFondo() {
+                document.body.style.backgroundImage = `url('${backgrounds[currentIndex]}')`;
+                currentIndex = (currentIndex + 1) % backgrounds.length;
+              }
+
+              // Cambia cada 60 segundos
+              setInterval(cambiarFondo, 60000);
+              window.addEventListener('DOMContentLoaded', cambiarFondo);
+
             let allMessagesByCategory = {}, currentCategory = null;
         
             // URL del worker con la whitelist
